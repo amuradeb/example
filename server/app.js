@@ -3,7 +3,7 @@ import next from 'next';
 
 const dev = process.env.NODE_ENV !== 'production';
 
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 80;
 const ROOT_URL = dev ? `http://localhost:${port}` : 'https://builderbook.org';
 
 const app = next({ dev });
