@@ -1,0 +1,19 @@
+{
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "description": "next",
+  "env": {
+  },
+  "formation": {
+  },
+  "name": "example",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}
